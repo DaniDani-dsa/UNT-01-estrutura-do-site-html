@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercicio 1</title>
+</head>
+<body>
+    <h1>Cadastro de Newsletter</h1>
+    <br>
+    <form action="teste.jsp" method="get" id="form-newsletter">
+    Qual a sua nacionalidade?
+    <input type="radio" name="Nacionalidade" id="nacionalidade-brasileira" value="Brasileira">Brasileira
+    <input type="radio" name="Nacionalidade" id="nacionalidade-italiana" value="Italiana">Italiana
+    <input type="radio" name="Nacionalidade" id="nacionalidade-outro" value="Outro">Outro <br>
+    Qual a sua faixa etária?
+    <select name="Faixa etaria" id="faixa-etaria">
+        <option value="15 - 18 anos">15 - 18 anos</option>
+        <option value="19 - 24 anos">19 - 24 anos</option>
+        <option value="25 - 30 anos">25 - 30 anos</option>
+        <option value="31 - 50 anos">31 -50 anos</option>
+        <option value="51 - 64 anos">51 - 64 anos</option>
+        <option value="65+ anos">65+ anos</option>
+    </select> <br>
+    Você concorda com os termos da Newsletter? <input type="checkbox" name="Termos de Compromisso" id="termos-newsletter" value="sim"><br/>
+    Nome Completo: <input type="text" name="Nome Completo" id="nome-completo" placeholder="Insira seu nome completo aqui." style="width: 200px;;";> <br>
+    Data de Nascimento: <input type="date" name="Data de Nascimento" id="data-de-nascimento"> <br>
+    E-mail: <input type="email" name="E-mail" id="email" placeholder="Insira o seu e-mail aqui."> <br>
+    Possui uma opinião para melhorarmos nossos serviços? <br>
+    <textarea name="Opinião" id="opiniao" cols="30" rows="10"></textarea> <br>
+    <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
